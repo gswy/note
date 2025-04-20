@@ -1,4 +1,4 @@
 import Theme from '@escook/vitepress-theme'
-import '@escook/vitepress-theme/style.css'
+import './style.css'
 
 export default Theme

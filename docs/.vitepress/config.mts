@@ -6,8 +6,10 @@ export default defineConfig({
   description: "专注于软件开发",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: "/logo.svg",
+    siteTitle: '甘肃万云信息技术',
     nav: [
-      { text: '公司首页', link: '/' },
+      { text: '首页', link: '/' },
       {
         text: '开源产品',
         items: [
@@ -23,9 +25,9 @@ export default defineConfig({
         ]
       },
       {
-        text: '参考文献',
+        text: '技术参考',
         items: [
-          { text: 'GB28181', link: '/document/signe' },
+          { text: '国标信令', link: '/document/signe' },
           { text: '媒体开发', link: '/document/media' },
         ]
       },
