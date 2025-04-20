@@ -7,7 +7,7 @@ hero:
   text: "专注于软件开发"
   tagline: My great project tagline
   image:
-    src: /resource/logo.svg
+    src: /logo.svg
     alt: "甘肃万云"
   actions:
     - theme: brand
