@@ -50,5 +50,10 @@ export default defineConfig({
       message: `<a href="https://www.gswy.org/" target="_blank">甘肃万云信息技术有限公司</a>`,
       copyright: `Copyright © 2020-${new Date().getFullYear()} gswy.org`
     }
+  },
+  vite: {
+    ssr: {
+      noExternal: ['@escook/vitepress-theme', 'vitepress']
+    }
   }
 })
